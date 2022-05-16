@@ -6,6 +6,10 @@ fn name (n: ) ->  {
 
 // tests
 
+
+// Add your tests here.
+// See https://doc.rust-lang.org/stable/rust-by-example/testing/unit_testing.html
+
 #[cfg(test)]
 mod tests {
     use rand::{thread_rng, Rng};
