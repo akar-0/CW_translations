@@ -28,11 +28,11 @@ func referenceSolution(n int) int {
 
 }
 
-var _ = Describe("Sample tests", func() {
-     It("should handle basic cases", func() {
+var _ = Describe("Tests", func() {
+     It("Sample tests", func() {
        Expect(Totient({})).To(Equal({}))
      })
-     It("should handle random tests", func() {
+     It("Random tests", func() {
        rand.Seed(time.Now().UTC().UnixNano())
        for _i := 0 ; _i < 100 ; _i++ {
          n := min + rand.Intn(max - min + 1)
