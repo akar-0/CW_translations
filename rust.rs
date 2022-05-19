@@ -1,6 +1,6 @@
 // set up
 
-fn name(n: ) ->  {
+fn name(n: ) -> {
     todo!()
 }
 
