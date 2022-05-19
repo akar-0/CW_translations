@@ -28,7 +28,7 @@ mod tests {
     fn random_tests() {
         let mut rng = thread_rng();
         for _i in 0..100 {
-            let mut n = rng.gen_range(min..max);
+            let n = rng.gen_range(min..max);
             assert_eq!(name(n), reference_solution(n));
         }
     }
