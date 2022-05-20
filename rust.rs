@@ -15,7 +15,7 @@ mod tests {
     use rand::{thread_rng, Rng};
     use super::name;
 
-    fn reference_solution {
+    fn reference_solution() {
 
     }
 
