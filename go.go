@@ -40,3 +40,8 @@ var _ = Describe("Tests", func() {
        }
      })
 })
+
+
+
+// Preloaded
+// https://www.codewars.com/kumite/62913108b951ddb15cb32a49?sel=62913108b951ddb15cb32a49
