@@ -34,7 +34,7 @@ var _ = Describe("Tests", func() {
      })
      It("Random tests", func() {
        rand.Seed(time.Now().UTC().UnixNano())
-       for _i := 0 ; _i < 100 ; _i++ {
+       for i := 0 ; i < 100 ; i++ {
          n := min + rand.Intn(max - min + 1)
          Expect(NAME()).To(Equal(referenceSolution()))
        }
