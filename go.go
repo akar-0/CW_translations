@@ -24,9 +24,11 @@ import (
   "time"
 )
 
+
 func referenceSolution(n int) int {
 
 }
+
 
 var _ = Describe("Tests", func() {
      It("Sample tests", func() {
