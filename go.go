@@ -51,4 +51,4 @@ var _ = Describe("Tests", func() {
 
 
 // format IT
-// https://www.codewars.com/kumite/new?parent=625fa25d7bb0c90017591b68
+// https://www.codewars.com/kumite/62954df52325a5000f1ae1a2?sel=6295a69813690400245fe50d
