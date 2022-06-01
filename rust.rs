@@ -46,3 +46,6 @@ mod tests {
         let mut rng = thread_rng();
         let mut xs = (0..500).collect::<Vec<usize>>();
         xs.shuffle(&mut rng);
+
+// return static string -> &'static str 
+// https://www.codewars.com/kumite/62912d0258d87b00168c9f52?sel=6291381158d87bd4458c8492
