@@ -21,7 +21,7 @@ mod tests {
 
     #[test]
     fn fixed_tests() {
-        assert_eq!(name({}), {});
+        assert_eq!(name({}), {}, "\nYour answer (left) is not the expected answer (right).");
     }
     
     #[test]
