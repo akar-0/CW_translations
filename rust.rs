@@ -29,7 +29,7 @@ mod tests {
         let mut rng = thread_rng();
         for _ in 0..100 {
             let n = rng.gen_range(min..max);
-            assert_eq!(name(n), reference_solution(n));
+            assert_eq!(name(n), reference_solution(n), "\nYour answer (left) is not the expected answer (right).");
         }
     }
 }
