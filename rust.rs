@@ -14,6 +14,8 @@ fn name(n: ) -> {
 mod tests {
     use rand::{thread_rng, Rng};
     use super::name;
+    
+    const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
 
     fn reference_solution() {
 
