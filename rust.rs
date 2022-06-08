@@ -23,7 +23,7 @@ mod tests {
 
     #[test]
     fn fixed_tests() {
-        assert_eq!(name({}), {}, \"\\nYour answer (left) is not the expected answer (right).\");
+        dotest(name({}), {}, \"\\nYour answer (left) is not the expected answer (right).\");
     }
     
     #[test]
@@ -31,7 +31,7 @@ mod tests {
         let mut rng = thread_rng();
         for _ in 0..100 {
             let n = rng.gen_range(min..max);
-            assert_eq!(name(n), reference_solution(n), "\nYour answer (left) is not the expected answer (right).");
+            dotest(name(n), reference_solution(n));
         }
     }
 }
