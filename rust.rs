@@ -13,7 +13,7 @@ fn name(n: ) -> {
 #[cfg(test)]
 mod tests {
     use rand::{thread_rng, Rng};
-    use super::name;
+    use super::NAME;
     
     const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
 
