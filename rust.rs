@@ -20,10 +20,14 @@ mod tests {
     fn reference_solution() {
 
     }
+    
+    fn dotest(n: i32, expected: i32) {
+        assert_eq!(NAME(n), expected, "{ERR_MSG} with n = {n}")   
+    }
 
     #[test]
     fn fixed_tests() {
-        dotest(name({}), {}, \"\\nYour answer (left) is not the expected answer (right).\");
+        dotest({}, {});
     }
     
     #[test]
@@ -31,7 +35,7 @@ mod tests {
         let mut rng = thread_rng();
         for _ in 0..100 {
             let n = rng.gen_range(min..max);
-            dotest(name(n), reference_solution(n));
+            dotest(n, reference_solution(n));
         }
     }
 }
