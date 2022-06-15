@@ -55,3 +55,7 @@ mod tests {
 
 // return static string -> &'static str 
 // https://www.codewars.com/kumite/62912d0258d87b00168c9f52?sel=6291381158d87bd4458c8492
+
+
+// advanced random
+// https://www.codewars.com/kumite/62a87515936a4a003d0b5ebd?sel=62a87515936a4a003d0b5ebd
