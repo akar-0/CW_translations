@@ -130,5 +130,3 @@
        end program tests.
       
 
-    © 2022 GitHub, Inc.
-
