@@ -19,7 +19,7 @@ mod tests {
     }
     
     fn dotest(n: i32, expected: i32) {
-        assert_eq!(NAME(n), expected, "{ERR_MSG} with n = {n}")   
+        assert_eq!(NAME(n), expected, "{ERR_MSG} with n = {n}")
     }
 
     #[test]
