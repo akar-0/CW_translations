@@ -52,3 +52,6 @@ var _ = Describe("Tests", func() {
 
 // format IT
 // https://www.codewars.com/kumite/62954df52325a5000f1ae1a2?sel=6295a69813690400245fe50d
+
+// approxEquals
+// https://www.codewars.com/kumite/62b84a24b16c63004a07503a?sel=62b84a24b16c63004a07503a
