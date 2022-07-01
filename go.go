@@ -57,3 +57,4 @@ var _ = Describe("Tests", func() {
 // https://www.codewars.com/kumite/62b84a24b16c63004a07503a?sel=62b84a24b16c63004a07503a
 // (..., error)
 // https://www.codewars.com/kumite/5beeecefd0253f259e0002c3?sel=5beeecefd0253f259e0002c3
+// https://www.codewars.com/kumite/62bd7db1aced6310e237a3d8?sel=62bd7db1aced6310e237a3d8
