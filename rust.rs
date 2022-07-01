@@ -12,11 +12,11 @@ mod tests {
     use rand::{thread_rng, Rng};
     use super::NAME;
     
-    const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
-
     fn reference_solution() {
 
     }
+    
+    const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
     
     fn dotest(n: i32, expected: i32) {
         assert_eq!(NAME(n), expected, "{ERR_MSG} with n = {n}")
