@@ -58,6 +58,8 @@ mod tests {
 // https://www.codewars.com/kumite/62a87515936a4a003d0b5ebd?sel=62a87515936a4a003d0b5ebd
 
 // dotest accepts Vec<&str> or Vec<String>
+// !!!!!!
+// https://www.codewars.com/kata/reviews/62c0089b4830050001d3cd5e/groups/62c023ab6a137000018b6f07
     fn dotest<S>(s: &str, mut expected: Vec<S>) 
     where S: AsRef<str> + std::cmp::Ord + std::fmt::Debug,
           std::string::String: std::cmp::PartialEq<S> 
