@@ -29,16 +29,19 @@ func referenceSolution(n int) int {
 
 }
 
+func dotest(n, expected int) {
+     Expect(NAME(n)).To(Equal(expected), "With n = %d", n)
+}
 
 var _ = Describe("Tests", func() {
      It("Sample tests", func() {
-       Expect(NAME({})).To(Equal({}))
+       dotest({}, {})
      })
      It("Random tests", func() {
        rand.Seed(time.Now().UTC().UnixNano())
        for i := 0 ; i < 100 ; i++ {
          n := min + rand.Intn(max - min + 1)
-         Expect(NAME()).To(Equal(referenceSolution()))
+         dotest(n, referenceSolution(n))
        }
      })
 })
