@@ -70,3 +70,9 @@ mod tests {
         
 // assert_approx_eq
 // https://www.codewars.com/kumite/62c6902fc529230026ee9438?sel=62c6902fc529230026ee9438
+
+        
+    use rand::distributions::{Distribution, Uniform};
+        
+        let arr = Uniform::from(3..9);
+            let n = arr.sample(&mut rng);
