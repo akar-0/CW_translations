@@ -66,3 +66,7 @@ mod tests {
     {
         
 // https://www.codewars.com/kumite/628a38db97efa50023249931?sel=62aaf6d2732360000fb6a7ed
+
+        
+// assert_approx_eq
+// https://www.codewars.com/kumite/62c6902fc529230026ee9438?sel=62c6902fc529230026ee9438
