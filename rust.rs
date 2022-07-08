@@ -76,3 +76,6 @@ mod tests {
         
         let arr = Uniform::from(3..9);
             let n = arr.sample(&mut rng);
+        
+        // rand chars, distribution
+        // https://www.codewars.com/kumite/59f5ed05a014316ce4000016?sel=5ee7208fa46562002e32df3b
