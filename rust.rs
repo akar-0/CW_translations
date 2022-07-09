@@ -15,9 +15,7 @@ mod tests {
     fn reference_solution() {
 
     }
-    
-    const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
-    
+        
     fn dotest(n: i32, expected: i32) {
         let actual = NAME(n);
         assert!(actual == expected, "With n = {n}\nExpected {expected} but got {actual}")
@@ -80,3 +78,8 @@ mod tests {
         
         // rand chars, distribution
         // https://www.codewars.com/kumite/59f5ed05a014316ce4000016?sel=5ee7208fa46562002e32df3b
+
+        
+        
+        
+    const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
