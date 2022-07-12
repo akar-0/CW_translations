@@ -6,7 +6,7 @@ section .text
       ; n := edi
       ; b := esi
       ; c := rdx
-perimeter:
+NAME:
     xor rax,rax     ; rax, the result
     ret
 ;<--    end of NAME -->
