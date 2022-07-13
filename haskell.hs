@@ -36,3 +36,8 @@ f w h n = do
 
 -- https://www.codewars.com/kumite/5b611d5f9756809e7b00001b?sel=5b611f9d146a281bd800001a
 modifyMaxSuccess (const nTest) $ 
+
+
+
+
+-- https://www.codewars.com/kumite/62cba928edc75c88fb9619d7?sel=62cba928edc75c88fb9619d7
