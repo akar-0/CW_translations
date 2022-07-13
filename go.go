@@ -40,7 +40,7 @@ var _ = Describe("Tests", func() {
      It("Random tests", func() {
        rand.Seed(time.Now().UTC().UnixNano())
        for i := 0 ; i < 100 ; i++ {
-         n := min + rand.Intn(max - min + 1)
+         n := rand.Intn()
          dotest(n, referenceSolution(n))
        }
      })
