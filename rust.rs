@@ -56,6 +56,10 @@ mod tests {
 // advanced random
 // https://www.codewars.com/kumite/62a87515936a4a003d0b5ebd?sel=62a87515936a4a003d0b5ebd
 
+// https://www.codewars.com/kumite/5f25bc910dc7f3001fd734a1?sel=62d41828977eda000f0dc0d8
+
+
+
 // dotest accepts Vec<&str> or Vec<String>
 // !!!!!!
 // https://www.codewars.com/kata/reviews/62c0089b4830050001d3cd5e/groups/62c023ab6a137000018b6f07
