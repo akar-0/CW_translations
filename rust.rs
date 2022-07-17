@@ -11,10 +11,6 @@ fn name(n: ) -> {
 mod tests {
     use rand::{thread_rng, Rng};
     use super::NAME;
-    
-    fn reference_solution() {
-
-    }
         
     fn dotest(n: u32, expected: u32) {
         let actual = NAME(n);
