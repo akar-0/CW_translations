@@ -17,3 +17,5 @@ NAME:
 ; https://www.codewars.com/kumite/62d1471c5487c19e4e996064?sel=62d1471c5487c19e4e996064
 ; pass functions
 ; https://www.codewars.com/kata/545993ee52756d98ca0010e1/train/c
+; print array
+; https://www.codewars.com/kumite/62d279f224b713004b58115a?sel=62d279f224b713004b58115a
