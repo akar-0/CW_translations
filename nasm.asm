@@ -20,3 +20,5 @@ NAME:
 ; print array
 ; https://www.codewars.com/kumite/62d279f224b713004b58115a?sel=62d279f224b713004b58115a
 ; https://www.codewars.com/kumite/62d44387c346e300557e541c?sel=62d44387c346e300557e541c
+; fuzzy equals
+; https://www.codewars.com/kumite/62d4f13cd32b8c00651805fa?sel=62d4f13cd32b8c00651805fa
