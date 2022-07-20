@@ -11,3 +11,7 @@ describe("Tests", function() {
      assert.strictEqual(1 + 1, 2);
   });
 });
+
+
+// approxequals
+// https://www.codewars.com/kumite/62d7a4a00ba2a6b5942efc51?sel=62d7a4a00ba2a6b5942efc51
