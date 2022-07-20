@@ -22,3 +22,7 @@ NAME:
 ; https://www.codewars.com/kumite/62d44387c346e300557e541c?sel=62d44387c346e300557e541c
 ; fuzzy equals
 ; https://www.codewars.com/kumite/62d4f13cd32b8c00651805fa?sel=62d4f13cd32b8c00651805fa
+
+
+// jammer++
+// https://www.codewars.com/kumite/62d84a0f74e50a537fffa3a8?sel=62d84a0f74e50a537fffa3a8
