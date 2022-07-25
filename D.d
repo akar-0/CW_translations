@@ -6,6 +6,9 @@
 // hashmap, translate
 // https://www.codewars.com/kata/5d98b6b38b0f6c001a461198/solutions/d
 
+// map
+// https://www.codewars.com/kata/reviews/61f5160f88ed97000142f30f/groups/61f5251cfb076500017a16f7
+
 module solution;
 
 export int NAME(int n) 
