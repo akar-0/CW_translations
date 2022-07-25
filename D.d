@@ -50,6 +50,6 @@ unittest
     for (auto i = 0; i < 50; ++i)
     {
         uint n = uniform(1, 500, rnd);
-        dotest(n, referenceSolution(n);
+        dotest(n, referenceSolution(n));
     }
 }
