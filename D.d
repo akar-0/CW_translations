@@ -31,3 +31,15 @@ unittest {
     
     
 }
+
+@("random tests")
+unittest
+{
+    import std.random : Random, unpredictableSeed, uniform;
+    auto rnd = Random(unpredictableSeed);
+    for (auto i = 0; i < 50; ++i)
+    {
+        uint n = uniform(1, 500, rnd);
+        dotest(n, referenceSolution(n);
+    }
+}
