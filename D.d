@@ -2,6 +2,8 @@
 // https://www.codewars.com/kumite/62dc17a2b86e07005c8b4ddb?sel=62dc17a2b86e07005c8b4ddb
 // bigint
 // https://www.codewars.com/kumite/620a7ab957240a00493120d9?sel=620a7ab957240a00493120d9
+// https://www.codewars.com/kata/5541f58a944b85ce6d00006a/solutions
+
 
 // hashmap, translate
 // https://www.codewars.com/kata/5d98b6b38b0f6c001a461198/solutions/d
