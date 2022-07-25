@@ -18,6 +18,8 @@
 
 // reduce iota popcnt
 // https://www.codewars.com/kumite/62debec714c77d7927d589b0?sel=62debec714c77d7927d589b0
+// rb trees. array map range...
+// https://www.codewars.com/kumite/62ded5eda7e5690028d1688e?sel=62ded5eda7e5690028d1688e
 
 
 module solution;
