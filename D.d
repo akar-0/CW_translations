@@ -13,6 +13,10 @@
 // approx equals
 // https://www.codewars.com/kumite/62de442c7850d60059b1302a?sel=62de442c7850d60059b1302a
 
+// reduce iota popcnt
+// https://www.codewars.com/kumite/62debec714c77d7927d589b0?sel=62debec714c77d7927d589b0
+
+
 module solution;
 
 export int NAME(int n) 
