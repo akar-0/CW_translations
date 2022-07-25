@@ -3,7 +3,8 @@
 // bigint
 // https://www.codewars.com/kumite/620a7ab957240a00493120d9?sel=620a7ab957240a00493120d9
 // https://www.codewars.com/kata/5541f58a944b85ce6d00006a/solutions
-
+// zip
+// https://www.codewars.com/kata/reviews/624afab6be5665000102283c/groups/624b2120be56650001023426
 
 // hashmap, translate
 // https://www.codewars.com/kata/5d98b6b38b0f6c001a461198/solutions/d
