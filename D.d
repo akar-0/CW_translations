@@ -48,8 +48,6 @@ void dotest(int n, int expected)
 @("Basic tests")
 unittest {
     dotest({}, {});
-    
-    
 }
 
 @("random tests")
