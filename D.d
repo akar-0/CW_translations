@@ -27,7 +27,8 @@
 // https://www.codewars.com/kumite/62e11b7ab3d2c518e6f59ee7?sel=62e11b7ab3d2c518e6f59ee7
 // safe overflow
 // https://www.codewars.com/kumite/62e13be319d25c003b5c3a20?sel=62e13be319d25c003b5c3a20
-
+// tuple expand
+// https://www.codewars.com/kumite/62e17b077c4a53000eacb48c?sel=62e17b077c4a53000eacb48c
 
 module solution;
 
