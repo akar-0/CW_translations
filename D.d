@@ -23,7 +23,7 @@
 // sort uniq filter canfind
 // https://www.codewars.com/kata/reviews/6251764cc522ea0001d6d263/groups/62b0923f38a9750001f775c0
 
-// alias lambda 
+// alias lambda  tuples
 // https://www.codewars.com/kumite/62e11b7ab3d2c518e6f59ee7?sel=62e11b7ab3d2c518e6f59ee7
 
 module solution;
