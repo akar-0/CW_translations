@@ -24,11 +24,6 @@ import (
   "time"
 )
 
-
-func referenceSolution(n int) int {
-
-}
-
 func dotest(n, expected int) {
      Expect(NAME(n)).To(Equal(expected), "With n = %d", n)
 }
