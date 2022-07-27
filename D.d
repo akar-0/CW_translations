@@ -31,7 +31,8 @@
 // https://www.codewars.com/kumite/62e17b077c4a53000eacb48c?sel=62e17b077c4a53000eacb48c
 // any
 // https://www.codewars.com/kumite/62e17b077c4a53000eacb48c?sel=62e17b077c4a53000eacb48c
-
+// sort string, retro, zip, insertInPlace, dropOne, find
+// https://www.codewars.com/kumite/62e19bc419d25c00435c4593?sel=62e19bc419d25c00435c4593
 
 module solution;
 
