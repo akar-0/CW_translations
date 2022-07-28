@@ -37,6 +37,8 @@
 // https://www.codewars.com/kumite/62e19bc419d25c00435c4593?sel=62e19bc419d25c00435c4593
 // immutable global array
 // https://www.codewars.com/kumite/62e27fc15d64d4003db391b4?sel=62e27fc15d64d4003db391b4
+// only = iter once
+// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/solutions/d
 
 module solution;
 
