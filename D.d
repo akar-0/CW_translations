@@ -83,3 +83,24 @@ unittest
 //        dotest(n, referenceSolution(n));
     }
 }
+
+
+
+
+
+
+
+
+// Generate random array
+    
+    import std.random : Random, unpredictableSeed, uniform;
+    auto rnd = Random(unpredictableSeed);
+    foreach(_; 0 .. 100 )
+    {
+        auto arr =
+            iota(0, uniform(0,50))
+            .map!(_ => uniform(int.min, int.max, rnd) )  // throws source/solution_test.d(51,46): Error: variable `rnd` cannot be read at compile time without ` _=>
+            .array;
+        dotest(arr, referenceSolution(arr));
+    }
+
