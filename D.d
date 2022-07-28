@@ -39,7 +39,7 @@
 // https://www.codewars.com/kumite/62e27fc15d64d4003db391b4?sel=62e27fc15d64d4003db391b4
 // only = iter once
 // https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/solutions/d
-// memoize remove pop dropBack reduce
+// memoize remove pop dropBack reduce indexof = countuntil
 // https://www.codewars.com/kumite/62e2ce0729618a1a55bc1735?sel=62e2ce0729618a1a55bc1735
 
 
