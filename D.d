@@ -104,3 +104,18 @@ unittest
         dotest(arr, referenceSolution(arr));
     }
 
+// random string
+
+    import std.random : Random, unpredictableSeed, uniform;
+    import  std.algorithm.iteration : map;
+    import std.range : iota;
+    import std.conv : to;
+    auto rnd = Random(unpredictableSeed);
+    foreach(_; 0 .. 100)
+    {
+        auto s = 
+            iota(0, uniform(1, 1001, rnd))
+            .map!(_ => cast(char) uniform(32, 127))
+            .to!string;
+        dotest(s, referenceSolution(s));
+    }
