@@ -119,3 +119,8 @@ unittest
             .to!string;
         dotest(s, referenceSolution(s));
     }
+
+
+range[uniform(0, range.length)];
+<=>
+range[uniform(0, $)];
