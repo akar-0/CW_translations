@@ -78,7 +78,7 @@ unittest {
     dotest({}, {});
 }
 
-@("random tests")
+@("Random tests")
 unittest
 {
     import std.random : Random, unpredictableSeed, uniform;
