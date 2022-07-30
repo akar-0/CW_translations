@@ -41,7 +41,8 @@
 // https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/solutions/d
 // memoize remove pop dropBack reduce indexof = countuntil
 // https://www.codewars.com/kumite/62e2ce0729618a1a55bc1735?sel=62e2ce0729618a1a55bc1735
-
+// sort swap stragegy stable
+// https://www.codewars.com/kumite/62dfa30d412915005d0de4d8?sel=62dfa30d412915005d0de4d8
 
 
 
