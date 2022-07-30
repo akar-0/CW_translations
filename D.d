@@ -45,7 +45,8 @@
 // https://www.codewars.com/kumite/62dfa30d412915005d0de4d8?sel=62dfa30d412915005d0de4d8
 // sequence infinite range
 // https://www.codewars.com/kata/537ba77315ddd92659000fec/solutions/d
-
+// immutable hash
+// https://www.codewars.com/kata/reviews/620e6d33f6f3a8000129d7fb/groups/62dc6a9cc166ac0001e6d272
 
 module solution;
 
