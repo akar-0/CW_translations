@@ -43,7 +43,8 @@
 // https://www.codewars.com/kumite/62e2ce0729618a1a55bc1735?sel=62e2ce0729618a1a55bc1735
 // sort swap stragegy stable
 // https://www.codewars.com/kumite/62dfa30d412915005d0de4d8?sel=62dfa30d412915005d0de4d8
-
+// sequence infinite range
+// https://www.codewars.com/kata/537ba77315ddd92659000fec/solutions/d
 
 
 module solution;
