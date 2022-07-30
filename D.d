@@ -55,7 +55,7 @@ module solution;
 
 export int NAME(int n) 
 {
-    return 0;
+    throw new Exception("not implemented");
 }
 
 
