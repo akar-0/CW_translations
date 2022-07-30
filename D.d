@@ -47,6 +47,9 @@
 // https://www.codewars.com/kata/537ba77315ddd92659000fec/solutions/d
 // immutable hash
 // https://www.codewars.com/kata/reviews/620e6d33f6f3a8000129d7fb/groups/62dc6a9cc166ac0001e6d272
+// randomize srings, shufflee....
+// https://www.codewars.com/kumite/62e553619db63bacf6f3ca95?sel=62e553619db63bacf6f3ca95
+
 
 module solution;
 
