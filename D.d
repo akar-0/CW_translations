@@ -140,3 +140,8 @@ unittest
 range[uniform(0, range.length)];
 <=>
 range[uniform(0, $)];
+
+
+// deepcopy 2d-array const
+    auto res = m.map!(x => x.dup).array;
+
