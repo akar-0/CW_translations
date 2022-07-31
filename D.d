@@ -91,7 +91,9 @@ version(unittest) import fluent.asserts;
 
 void dotest(int n, int expected)
 {
-    NAME(n).should.equal(expected).because("n = %d".format(n));
+    NAME(n)
+        .should.equal(expected)
+        .because("n = %d".format(n));
 }
 
 @("Basic tests")
