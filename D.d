@@ -1,4 +1,4 @@
-import  std.range : chain, drop, enumerate, iota, only, repeat, zip;
+import  std.range : chain, drop, enumerate, iota, only, repeat, retro, zip;
 import  std.algorithm.iteration : each, filter, fold, joiner, map;
 import  std.array : array, join;
 import  std.conv : to;
