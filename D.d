@@ -1,4 +1,5 @@
 import std.algorithm.searching : all, any, canFind, count, ;
+import  std.algorithm.iteration : filter, map;
 import std.range : enumerate, iota, repeat;
 import ;
 import ;
