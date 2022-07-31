@@ -3,7 +3,7 @@ import  std.algorithm.iteration : each, filter, joiner, map;
 import  std.array : array, join;
 import  std.conv : to;
 import  std.string : format, stripRight;
-import  std.algorithm.setops.cartesianProduct;
+import  std.algorithm.setops : cartesianProduct;
 
 
 import std.algorithm.searching : all, any, canFind, count, maxElement;
