@@ -1,3 +1,10 @@
+import std.algorithm.searching : all, any, canFind, count, ;
+import std.range : enumerate, iota, repeat;
+import ;
+import ;
+import ;
+import ;
+
 // shuffle
 // https://www.codewars.com/kumite/62dc17a2b86e07005c8b4ddb?sel=62dc17a2b86e07005c8b4ddb
 // bigint
