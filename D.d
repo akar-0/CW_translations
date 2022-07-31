@@ -5,6 +5,7 @@ import  std.conv : to;
 import  std.string : format, stripRight;
 import  std.algorithm.setops : cartesianProduct;
 import  std.algorithm.comparison : max;
+import  std.algorithm.mutation : reverse;
 
 import std.algorithm.searching : all, any, canFind, count, maxElement;
 import  std.algorithm.iteration : filter, map;
