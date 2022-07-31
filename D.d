@@ -1,5 +1,5 @@
 import  std.range : chain, enumerate, only, repeat;
-import  std.algorithm.iteration : filter, joiner, map;
+import  std.algorithm.iteration : each, filter, joiner, map;
 import  std.array : array, join;
 import  std.conv : to;
 import  std.string : format, stripRight;
