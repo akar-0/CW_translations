@@ -1,5 +1,5 @@
 import  std.range : chain, drop, enumerate, iota, only, repeat, retro, zip;
-import  std.algorithm.iteration : each, filter, fold, joiner, map;
+import  std.algorithm.iteration : each, filter, fold, joiner, map, sum;
 import  std.array : array, join;
 import  std.conv : to;
 import  std.string : format, stripRight;
