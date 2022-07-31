@@ -2,6 +2,7 @@ import  std.range : chain, enumerate, only, repeat;
 import  std.algorithm.iteration : filter, joiner, map;
 import  std.array : array;
 import  std.conv : to;
+import  std.string : format, stripRight;
 
 import std.algorithm.searching : all, any, canFind, count, maxElement;
 import  std.algorithm.iteration : filter, map;
