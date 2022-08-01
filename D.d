@@ -4,7 +4,7 @@ import  std.array : array, join;
 import  std.conv : to;
 import  std.string : format, stripRight;
 import  std.algorithm.setops : cartesianProduct;
-import  std.algorithm.comparison : max;
+import  std.algorithm.comparison : equal, max;
 import  std.algorithm.mutation : reverse;
 import  std.range.primitives : popBack, empty;
 import  std.algorithm.sorting : sort;
