@@ -8,7 +8,7 @@ import  std.algorithm.comparison : equal, max;
 import  std.algorithm.mutation : reverse;
 import  std.range.primitives : popBack, empty;
 import  std.algorithm.sorting : sort;
-
+import  std.ascii : isDigit;
 import  std.algorithm.searching : all, any, canFind, count, endsWith, maxElement;
 import  std.algorithm.iteration : filter, map;
 import ;
