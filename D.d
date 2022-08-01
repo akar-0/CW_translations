@@ -17,6 +17,7 @@ import ;
 import ;
 import ;
 
+// multisort https://www.codewars.com/kata/55c6126177c9441a570000cc/solutions/d
 // ifthrown exception
 // https://dlang.org/library/std/exception/if_thrown.html
 // shuffle
