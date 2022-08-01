@@ -161,3 +161,11 @@ range[uniform(0, $)];
 // deepcopy 2d-array const
     auto res = m.map!(x => x.dup).array;
 
+// compare range
+
+import  std.algorithm.sorting : sort;
+import  std.algorithm.comparison : equal;
+import  std.array : array;
+import  std.algorithm.searching : all
+
+export  auto isSorted = (string s) => s.array.sort.equal(s);
