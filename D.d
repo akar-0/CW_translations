@@ -12,6 +12,7 @@ import  std.ascii : isDigit;
 import  std.algorithm.searching : all, any, canFind, count, endsWith, find, maxElement, until;
 import  std.algorithm.iteration : filter, map;
 import  std.string : representation;
+import  std.numeric : gcd;
 import ;
 import ;
 import ;
