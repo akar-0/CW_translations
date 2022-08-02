@@ -173,3 +173,10 @@ import  std.array : array;
 import  std.algorithm.searching : all
 
 export  auto isSorted = (string s) => s.array.sort.equal(s);
+
+
+
+// sort characters in string
+
+    auto s = word.dup.representation.sort;
+
