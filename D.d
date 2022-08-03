@@ -188,3 +188,5 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // strings
     auto allChars = iota('a', 'z' + 1).chain(iota('A', 'Z' + 1)).map!(c => cast(dchar) c).array;
+// !! slice strings, each...
+// https://www.codewars.com/kumite/62eab8a4879899004f82539c?sel=62eab8a4879899004f82539c
