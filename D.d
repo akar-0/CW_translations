@@ -17,6 +17,9 @@ import ;
 import ;
 import ;
 
+
+// static memoize, assumeSorted...
+// https://www.codewars.com/kumite/62ea6b21de9db4006c7e030c?sel=62ea6b21de9db4006c7e030c
 // static and not immutable !!!!
 // https://www.codewars.com/kumite/62ea551b888e1727d8f004b4?sel=62ea59004b88300017f95f58
 // multisort https://www.codewars.com/kata/55c6126177c9441a570000cc/solutions/d
