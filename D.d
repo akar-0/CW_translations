@@ -13,6 +13,7 @@ import std.algorithm.searching : all, any, canFind, count, endsWith, find, maxEl
 import std.algorithm.iteration : filter, map;
 import std.string : representation;
 import std.numeric : gcd;
+import std.uni : toLower;
 import ;
 import ;
 import ;
