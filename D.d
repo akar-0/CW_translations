@@ -1,6 +1,6 @@
 import  std.range : chain, drop, enumerate, iota, only, padLeft, repeat, retro, stride, take, zip;
 import  std.algorithm.iteration : each, filter, fold, joiner, map, sum;
-import  std.array : array, join, split;
+import  std.array : array, byPair, join, split;
 import  std.conv : to;
 import  std.string : format, stripRight;
 import  std.algorithm.setops : cartesianProduct;
