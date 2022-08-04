@@ -206,3 +206,8 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
     auto randWord = () => uniform(5, 21).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
 
 (31).iota.array.randomShuffle(rnd).each!(n => dotest(n, referenceSolution(n)));
+
+
+
+    auto allDigits = iota('0', ':').array;
+    alias randDigit = () => allDigits[uniform(0, $, rnd)];
