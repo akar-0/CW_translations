@@ -211,3 +211,13 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
     auto allDigits = iota('0', ':').array;
     alias randDigit = () => allDigits[uniform(0, $, rnd)];
+
+
+
+// randint[]
+        auto s = 
+            uniform(1, 16, rnd)
+            .iota
+            .map!(_ => uniform(int.min >> uniform(0, 28, rnd), int.max >> uniform(0, 28, rnd)).to!string)
+            .joiner(" ")
+            .to!string;
