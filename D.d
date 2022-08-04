@@ -236,6 +236,9 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
     import std.conv;
     auto rnd = Random(unpredictableSeed);
     
+
+    import std.range;
+    import std.conv;
     auto allChars = iota('a', '{').array;
     auto randWord = () => uniform(1, 16).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
     auto randString = () => uniform(1, 16).iota.map!(_ => randWord()).joiner(" ").to!string;
