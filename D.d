@@ -194,3 +194,7 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // shuffleable dchar array
                 auto arr = uniform(minAn, maxAn, rnd).iota.map!(_ => allChars[uniform(0, $, rnd)]).map!(c => cast(dchar) c).array;
+
+
+// sort digits
+// n.to!string.dup.representation.sort.map!(x=> cast(char) x).to!uint;
