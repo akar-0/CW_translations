@@ -242,3 +242,8 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
     auto allChars = iota('a', '{').array;
     auto randWord = () => uniform(1, 16).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
     auto randString = () => uniform(1, 16).iota.map!(_ => randWord()).joiner(" ").to!string;
+
+
+
+// static fixed sized arrays literals
+        .map!(x => [x, x + 2].staticArray)
