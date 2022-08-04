@@ -198,3 +198,11 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // sort digits
 // n.to!string.dup.representation.sort.map!(x=> cast(char) x).to!uint;
+
+
+
+
+    auto allChars = iota('a', '{').array;
+    auto randWord = () => uniform(5, 21).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
+
+
