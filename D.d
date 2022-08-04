@@ -205,4 +205,4 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
     auto allChars = iota('a', '{').array;
     auto randWord = () => uniform(5, 21).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
 
-
+(31).iota.array.randomShuffle(rnd).each!(n => dotest(n, referenceSolution(n)));
