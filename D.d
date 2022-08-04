@@ -18,6 +18,8 @@ import ;
 import ;
 import ;
 
+// schwartzSort
+// https://www.codewars.com/kumite/62ebf5fd70f3950024c3db2a?sel=62ebf5fd70f3950024c3db2a
 
 // static memoize, assumeSorted...
 // https://www.codewars.com/kumite/62ea6b21de9db4006c7e030c?sel=62ea6b21de9db4006c7e030c
@@ -221,3 +223,19 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
             .map!(_ => uniform(int.min >> uniform(0, 28, rnd), int.max >> uniform(0, 28, rnd)).to!string)
             .joiner(" ")
             .to!string;
+
+
+
+// randString
+
+
+    import std.random : Random, unpredictableSeed, uniform;
+    import std.algorithm;
+    import std.array;
+    import std.range;
+    import std.conv;
+    auto rnd = Random(unpredictableSeed);
+    
+    auto allChars = iota('a', '{').array;
+    auto randWord = () => uniform(1, 16).iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
+    auto randString = () => uniform(1, 16).iota.map!(_ => randWord()).joiner(" ").to!string;
