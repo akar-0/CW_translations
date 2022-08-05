@@ -252,3 +252,10 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // static fixed sized arrays literals
         .map!(x => [x, x + 2].staticArray)
+
+            
+// function pointer as variable
+// https://www.codewars.com/kumite/62eda1787290410030a05e6f?sel=62eda1787290410030a05e6f
+            
+            
+            
