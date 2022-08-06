@@ -14,7 +14,8 @@ mod tests {
         
     fn dotest(n: u32, expected: u32) {
         let actual = NAME(n);
-        assert!(actual == expected, "With n = {n}\nExpected {expected} but got {actual}")
+        assert!(actual == expected, 
+            "With n = {n}\nExpected {expected} but got {actual}")
     }
 
     #[test]
