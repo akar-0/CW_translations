@@ -84,3 +84,7 @@ mod tests {
         
         
     const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
+
+        
+        // choose multiple random sample
+        // https://www.codewars.com/kumite/62ef6941729041003da0904e?sel=62ef69c8f47ee9efa0a00926
