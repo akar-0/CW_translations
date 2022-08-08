@@ -79,3 +79,7 @@ func dotest(s, f string, expected float64) {
 
 // pass functions, count calls
 // https://www.codewars.com/kata/62c68f0920d291001737fa22/solutions/go
+
+
+// more random strings rand strings
+// https://www.codewars.com/kumite/62f108e07290410063a0c1f3?sel=62f108e07290410063a0c1f3
