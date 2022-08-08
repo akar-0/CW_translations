@@ -15,6 +15,6 @@ describe("Tests", function() {
 
 ```
 %s/Test.\assertEquals/assert.strictEqual/g
-
+```   
 // approxequals
 // https://www.codewars.com/kumite/62d7a4a00ba2a6b5942efc51?sel=62d7a4a00ba2a6b5942efc51
