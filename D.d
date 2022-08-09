@@ -255,6 +255,13 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 
 
+    auto allChars = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 .,;:!?/";
+    auto randString
+       = () => uniform(1, 31)
+                .iota
+                .map!(_ => allChars[uniform(0, $, rnd)])
+                .to!string;
+
 // static fixed sized arrays literals
         .map!(x => [x, x + 2].staticArray)
 
