@@ -114,7 +114,7 @@ import std.string : format;
 
 version(unittest) import fluent.asserts;
 
-void dotest(int n, int expected)
+void dotest(uint n, uint expected)
 {
     NAME(n)
         .should.equal(expected)
