@@ -103,10 +103,6 @@ export int NAME(int n)
 {
     throw new Exception("not implemented");
 }
-
-
-
-
 module solution_test;
 
 import solution : NAME;
