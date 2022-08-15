@@ -269,5 +269,11 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 // function pointer as variable
 // https://www.codewars.com/kumite/62eda1787290410030a05e6f?sel=62eda1787290410030a05e6f
             
+           
             
+    import std.range, std.algorithm, std.conv;
+    
+    auto rnd = Random(unpredictableSeed),
+         allChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    alias randString = (l) => l.iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
             
