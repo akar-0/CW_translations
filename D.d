@@ -277,3 +277,9 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
          allChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     alias randString = (l) => l.iota.map!(_ => allChars[uniform(0, $, rnd)]).to!string;
             
+
+
+
+// randInt
+        auto shift = uniform(0, 25, rnd);
+        auto n = uniform(int.min >> shift, int.max >> shift, rnd);
