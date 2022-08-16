@@ -99,7 +99,7 @@ import ;
 
 module solution;
 
-export int NAME(int n) 
+export uint NAME(int n) 
 {
     throw new Exception("not implemented");
 }
