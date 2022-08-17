@@ -279,3 +279,7 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 // randInt
         auto shift = uniform(0, 25, rnd);
         auto n = uniform(int.min >> shift, int.max >> shift, rnd);
+
+
+// regex groups
+// https://www.codewars.com/kumite/62fd2e6bb4e54c9fdab90e72?sel=62fd2e6bb4e54c9fdab90e72
