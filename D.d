@@ -283,3 +283,7 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // regex groups
 // https://www.codewars.com/kumite/62fd2e6bb4e54c9fdab90e72?sel=62fd2e6bb4e54c9fdab90e72
+
+
+// pass function parameter function pointer
+// https://www.codewars.com/kumite/622c5c1e04a502351ab76009?sel=622c5c1e04a502351ab76009
