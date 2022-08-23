@@ -193,6 +193,7 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 // sort characters in string
 
     auto s = word.dup.representation.sort;
+ auto a = s.array.sort!"a > b",
 
 // strings
     auto allChars = iota('a', 'z' + 1).chain(iota('A', 'Z' + 1)).map!(c => cast(dchar) c).array;
