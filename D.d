@@ -288,3 +288,7 @@ export  auto isSorted = (string s) => s.array.sort.equal(s);
 
 // pass function parameter function pointer
 // https://www.codewars.com/kumite/622c5c1e04a502351ab76009?sel=622c5c1e04a502351ab76009
+
+// iterate over rbtree 
+
+    h.opSlice
