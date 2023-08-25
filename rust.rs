@@ -93,3 +93,6 @@ mod tests {
         
         // sample alphanumeric
         // https://www.codewars.com/kumite/5ed634c9e203c800291f5464?sel=617de58fb328a50008442d99
+
+        // general types
+        // https://www.codewars.com/kumite/63e53507166489001c4cb68f?sel=63e53507166489001c4cb68f
